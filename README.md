@@ -98,3 +98,22 @@ New folder (2)/
 │               └── stars.png           # Background starfield texture
 └── cpp-source/                 # Original C++ source code & CMake files (Kavan)
 ```
+
+## 📋 Requirements
+
+| Component | Minimum Version |
+| :--- | :--- |
+| Java JDK | 17 or newer |
+| Apache Maven | 3.8+ (3D simulation only) |
+| GPU | OpenGL 3.3+ compatible |
+| OS | Windows 10/11, Linux, macOS |
+
+## 🛠️ Troubleshooting
+
+| Problem | Solution |
+| :--- | :--- |
+| `mvn` is not recognized | Install Maven and add it to your `PATH` |
+| `java` is not recognized | Install JDK 17+ and set `JAVA_HOME` |
+| Black screen or crash on launch | Update your GPU drivers; ensure OpenGL 3.3+ support |
+| Low FPS in 3D mode | Toggle off the starfield (**S**) or spacetime grid (**G**) |
+| macOS window fails to open | Run with `-XstartOnFirstThread` JVM flag |
