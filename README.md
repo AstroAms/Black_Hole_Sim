@@ -117,3 +117,27 @@ New folder (2)/
 | Black screen or crash on launch | Update your GPU drivers; ensure OpenGL 3.3+ support |
 | Low FPS in 3D mode | Toggle off the starfield (**S**) or spacetime grid (**G**) |
 | macOS window fails to open | Run with `-XstartOnFirstThread` JVM flag |
+
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m "Add my feature"`
+4. Push to the branch: `git push origin feature/my-feature`
+5. Open a Pull Request
+
+Ideas for future improvements:
+- Kerr (rotating) black hole metric
+- Gravitational wave ripple visualization
+- Screenshot / video recording hotkey
+- Adjustable observer distance via UI sliders
+- Gravitational time dilation visualizer
+
+## 🙏 Credits
+
+- **Kavan** for the original [Simulating Black Holes in C++](https://youtu.be/8-B6ryuBkCM) tutorial and source code
+- [LWJGL](https://www.lwjgl.org/) for the Java OpenGL bindings
+- Schwarzschild, Flamm, and Shakura-Sunyaev for the underlying physics
